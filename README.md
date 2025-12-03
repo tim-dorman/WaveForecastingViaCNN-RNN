@@ -2,7 +2,7 @@
 This project used Deep Learning modeling via CNNs and RNNs to create a 24 hour look ahead surf forecast based on NOOA NBDC Buoys
 
 
-ave forecasting for the sport of surfing is an exercise thats been going on since the sport's creation. It is a common occurence for surfers to try and predict wave surfability in the future from present and histroical conditions. In fact, there are companies dedicated to the purpose of forecasting waves for surfers that rely on user subscriptions to gain revenue.
+Wave forecasting for the sport of surfing is an exercise thats been going on since the sport's creation. It is a common occurence for surfers to try and predict wave surfability in the future from present and histroical conditions. In fact, there are companies dedicated to the purpose of forecasting waves for surfers that rely on user subscriptions to gain revenue.
 
 Additionally, there is a wealth of free data available, on present and historical surf conditions, provided by NOAA via the National Data Buoy Center. So, the question that arises is: Is there a way to apply deep learning methodology to this freely available data, to create a reliable wave forecasting tool?
 
