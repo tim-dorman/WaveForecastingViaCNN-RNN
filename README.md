@@ -14,14 +14,13 @@ A) Surf Score: feature engineered metric created to represent physical surf cond
 
 and
 
-B) Surf Label, a.k.a. "surfability": A binary classification of whether not the present surf conditions are surfable or not (also feature engineered from domain knowledge of physical surf conditions)
+B) Surf Label, a.k.a. "surfability": A binary classification of whether not the wave conditions are surfable or not (also feature engineered from domain knowledge of physical surf conditions)
 
 These target metrics will be predicted by six separate models. The surf score will be predicted via regression modeling, and the surfability will be predicted via binary classification modeling.
 
 In fact, a related work has been done using LSTMs to predict ocean wave conditions. Minuzzi and Farina (2023) used time series buoy data on a select number of buoys off of the Brazilian coast to try and predict a significant wave height change via LSTMs
 
 Unlike the study mentioned though, this project will attempt to understand overall wave conditions as it relates to surfing given time series buoy data via the feature engineered metrics of surf score and surf label (surfability). Additionally, this project will use all of the buoys within the NOAA NBDC network, and will apply CNNs and BiLSTMs to this data rather than simply LSTMs.
-
 
 The six separate models that will be created in this project are:
 
